@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        // "baseUrl": "./",
+        "target": "ESNext",
+        // "module": "NodeNext",
+        // "moduleResolution": "NodeNext",
+        // "strict": true
+    },
+    "watchOptions": {
+        "excludeDirectories": [
+            "node_modules",
+            "script",
+            "public"
+        ]
+    },
+    "include": [
+        "lib/**/*.ts"
+    ]
+}
